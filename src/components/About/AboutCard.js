@@ -11,26 +11,25 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             I am <span className="purple">Peri Hassanzadeh </span>
             from <span className="purple"> Pittsburgh, Pennsylvania.</span>
-            <br /> I am a first year graduate student at the University of Pittsburgh
-            studying Electrical and Computer Engineering.
+            <br /> I am an embedded software engineer at <span className="purple">Gecko Robotics</span>!
             <br />
-            Currently, I am an engineering intern at SpaceX!
+            I specialize in <span className="purple">firmware</span> development for robotic solutions. 
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            Apart from coding, some other activities that I love to do:
           </p>
           <ul>
             <li className="about-activity">
-              <BiTennisBall /> Playing Tennis
+              <BiTennisBall /> Staying Active (Lifting, Tennis, Hiking)
             </li>
             <li className="about-activity">
-              <BsSpotify /> Music/Concerts
+              <BsSpotify /> Reading and Listening to Podcasts
             </li>
             <li className="about-activity">
-              <BiWorld /> Traveling
+              <BiWorld /> Traveling and Exploring New Cultures
             </li>
             <li className="about-activity">
-              <BsLightbulb /> Learning
+              <BsLightbulb /> Learning about Space Technology and Embedded Systems
             </li>
           </ul>
 

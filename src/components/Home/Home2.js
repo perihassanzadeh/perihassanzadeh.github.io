@@ -22,31 +22,31 @@ function Home2() {
               <br />
               <br />I am most comfortable programming in 
               <i>
-                <b className="purple"> C++ and Python. </b>
+                <b className="purple"> C and Python. </b>
               </i>
               <br />
               <br />
-              My fields of Interest are &nbsp;
+              My main interests are &nbsp;
               <i>
-                <b className="purple">Space Technology </b> and
-                areas related to{" "}
+                <b className="purple">Space Technology </b>
+                and {" "}
                 <b className="purple">
-                  Embedded Systems.
+                  Embedded Systems and Firmware.
                 </b>
               </i>
               <br />
               <br />
-              When I'm not at work or school, I like to work on 
-                <b className="purple"> Formula SAE Projects</b> and
+              When I'm not at work, I enjoy working on  
+                <b className="purple"> Personal Projects</b> and
               <i>
                 <b className="purple">
                   {" "}
-                  stay active
+                  going to the gym
                 </b>
               </i>
               &nbsp; as well as
               <i>
-                <b className="purple"> read books!</b>
+                <b className="purple"> reading non-fiction books!</b>
               </i>
             </p>
           </Col>

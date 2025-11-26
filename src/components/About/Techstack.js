@@ -2,21 +2,17 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { CgCPlusPlus } from "react-icons/cg";
 import {
-  DiJava,
-  DiReact,
   DiPython,
   DiGit,
   DiLinux,
 } from "react-icons/di";
 import {
   SiArduino,
-  SiDocker,
-  SiOpencv,
+  SiCplusplus,
   SiAltiumdesigner,
+  SiStmicroelectronics,
+  SiC,
 } from "react-icons/si";
-import{
-  FaAws,
-} from "react-icons/fa"
 import{
   CgAtlasian,
 } from "react-icons/cg"
@@ -25,13 +21,13 @@ function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={3} md={2} className="tech-icons">
-        <CgCPlusPlus />
+        <SiCplusplus />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiC />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiPython />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiOpencv />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiAltiumdesigner />
@@ -49,7 +45,7 @@ function Techstack() {
         <CgAtlasian />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
+        <SiStmicroelectronics />
       </Col>
     </Row>
   );
